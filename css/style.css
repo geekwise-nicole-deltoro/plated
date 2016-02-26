@@ -1,130 +1,61 @@
 html,body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    font-size: 62.5%;
+    box-sizing: border-box;
 }
 
 body{
-    height: 85%;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    text-align: center;
+    margin: 0;
+    padding: 0;
     
+}
+
+
+#main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-image: url("http://i.imgur.com/RtIG5AV.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-size:100%;
 }
 
 
  
 
 header{
-    background-color: #ffffff;
+    padding;
+    margin: 0;
     width: 100%;
-    height: 80px;
-    color: red;
-    box-sizing: border-box;
-    
+    height: 500px;
+    border-bottom: 1px solid #818181;
 }
 
 
 
-#button1{
-    background-color: white;
-    float: left;
-    margin: 25px;
-    text-decoration:  none;
-    font-size: 13px;
-    text-decoration-color: #56CC9D;
 
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+#contacts{
+    float: right;
+    
 }
 
 a{
-    color: #56cc9d;
+    color: black;
+    font-weight: normal;
     text-decoration: none;
-}
-
-
-#button1:hover {
-    background: #ffffff;
-    text-underline-position: below;
-}
-
-
-
-#two{ 
-    margin-left: 8.5rem;
-    margin-bottom: 30rem;
-    font-size: 13px;
-    float: right;
-    background-color: #56CC9D;
-    text-align: center;
-    display: inline;
-    
-}
-
-
-#two:hover {
-    font-size: 15px;
-    text-decoration-color: #56cc9d;
-    text-underline-position: below;
-}
-
-
-
-#three{
-    
-    float: right;
-    background-color: #ffffff;
-    display: inline;
-    text-decoration-color: #56CC9D;
-    font-size: 14px;
-    
-}
-
-
-a:hover{
-    font-size: 15px;
-    
-}
-
-main{
-    padding-bottom: 1;   
-    align-content: center;
-    text-decoration-color: #fff;
-    
-}
-
-#image{
-    background-position: center;
-    border-bottom-color: #56cc9d;
-    margi
-    
-    
-}
-
-#bottom{
-    background-color: #56cc9d;
-    background-position: center;
-    width: 384.5px;
-    height: 50px;
-    display: inline-block;
-    text-align: center;
-    font-size: 16px;
-    
-}
-
-#top{
-    align-content: center;
-    width: 384.5px;
-    height: 50px;
-    display: inline-block;
-}
-
-footer{
-    text-decoration-line: underline;
-    list-style: none;
-    display: block;
-    box-sizing: border-box;.
-    border: solid 1px;
-    width: 100%;
-    height: calc (100%x2);
 }
