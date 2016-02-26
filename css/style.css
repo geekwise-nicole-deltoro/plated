@@ -6,7 +6,7 @@ html,body{
 }
 
 body{
-
+    height: 85%;
     background-color: #ffffff;
     box-sizing: border-box;
     text-align: center;
@@ -22,7 +22,6 @@ header{
     height: 80px;
     color: red;
     box-sizing: border-box;
-    border-bottom-style: solid #56cc9d;
     
 }
 
