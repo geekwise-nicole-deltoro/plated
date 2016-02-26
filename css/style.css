@@ -18,8 +18,8 @@ body{
  
 
 header{
+    border 
     background-color: #ffffff;
-    text-decoration-color: red;
     width: 100%;
     height: 7rem;
     letter-spacing: 1px;
@@ -28,10 +28,6 @@ header{
     
 }
 
-h2{
-    text-decoration-color: red;
-    text-align: center;
-}
 
 
 #button1{
@@ -74,8 +70,8 @@ h2{
 
 
 #three {
+    
     float: right;
-    margin-left:9em;
     background-color: #ffffff;
     display: inline;
     text-decoration-color: #56CC9D;
@@ -83,47 +79,40 @@ h2{
     
 }
 
-
-#three:hover {
-    background:#ffffff;
-    text-underline-position: below;
+a:hover{
+    
 }
+
 
 #image{
-    
-    background-position: top;
-    text-align: center;
-    height: 383px;
-    width: 855px;
-    margin-left: 2.5em;
+    background-position: ;
+    width: 1105px;
+    height: 450px;
     
 }
 
-#delivery{
+#bottom{
+    background-color: #56cc9d;
+    background-position: center;
+    width: 384.5px;
+    height: 50px;
     display: inline-block;
-    width: auto;
-    height: auto;
-    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+#top{
     align-content: center;
-    text-decoration-color: #000000;
-}
-
-
-#pageIfo li {
-  display: inline-block;
-  margin: 0 10px;
-  vertical-align: middle;
-}
-
-
-#pageInfo li:last-child{
-  margin-right: 0;
+    width: 384.5px;
+    height: 50px;
+    display: inline-block;
 }
 
 footer{
-    display: inline;
-    box-sizing: border-box;
-    border: solid 1em #000000;
+    
+    display: block;
+    box-sizing: border-box;.
+    border: solid 1px;
     width: 100%;
-    height: 51px;
+    height: 50%;
 }
