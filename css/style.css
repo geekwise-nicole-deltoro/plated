@@ -2,21 +2,25 @@ html,body{
     margin: 0;
     padding: 0;
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 
 body{
     margin: 0;
     padding: 0;
+    align-content: center;
+    font-size: 14px;
+    text-decoration-color: #020202;
+    box-sizing: border-box;
+    
     
 }
 
 
-#main{
+main{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 450px;
+    height: 550px;
     position: relative;
     background-image: url("http://i.imgur.com/RtIG5AV.jpg");
     background-repeat: no-repeat;
@@ -24,11 +28,11 @@ body{
     background-size:100%;
 }
 
-header{
-    padding;
-    margin: 0;
+header1{
+    padding: 20px;
+    margin: 5rem;
     width: 100%;
-    height: 500px;
+    height: 100%;
     border-bottom: 1px solid #818181;
 }
 
@@ -38,10 +42,12 @@ button{
     border: none;
     background-color: white;
     float: left;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    
 }
 
-div{ 
+div{
+    float: 
     padding: 0;
     margin-bottom: 10px;
     text-align: center;
@@ -73,7 +79,7 @@ div{
     background-color:#3FA87E;
 }
 
-#ups{
+#main1{
     display: block;
     height:;
     text-align: center;
@@ -82,13 +88,14 @@ div{
     text-transform: uppercase;
 }
 
-main{
+#quote{
     margin: 0;
     width: auto;
     height: auto;
+    align-content: center;
 }
 
-#only_one{
+#only_nav{
     width: 20%;
     float: left;
 }
@@ -101,7 +108,7 @@ main{
     margin: 0 auto;
     width:100%;
     padding-bottom: 10px;
-     border-bottom: 1px solid #818181;;
+     border-bottom: 1px solid #818181;
     
 }
 
@@ -113,10 +120,7 @@ ul{
     margin: 0;
     width:auto;
     
-
-    
 }
-
 
 li{
     
@@ -128,8 +132,202 @@ li{
     
 
 }
+
+#contacts{
+    font-family: arial;
+    float: right;
+    display: block;
+    width:146px;
+    text-transform: lowercase;
+    
     
 }
+
+#end{
+    
+    position: relative;
+    top:10px;
+    display: block;
+    width:auto;
+    margin: 0 auto;
+    width:100%;
+}
+
+
+
+
+a{
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#ava{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+#quote{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size:40px;
+    padding-left: 278px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+input{
+    margin: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#fff;
+    color: grey;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+
+
+
+
+#{
+    text-align: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #3fa87e;
+    border:none;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    display:block;
+    
+}
+
+
+#{
+    font-size: 20px;
+    color:#fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+}   
+
+
+
+footer{
+    margin: 0 auto;
+    padding:0;  
+    
+}
+
+#end{
+   margin: 0 auto;
+    padding: 0;
+    float: left;
+    text-transform: uppercase;
+    
+}
+.terms{
+    text-align: center;
+    float: left;
+    width: 100px;
+    display: inline-block;
+   
+}
+#icons{
+    width: 5=0%;
+    float: right;
+    margin-top:-17px;
+    font-size: 24px;;
+    letter-spacing: 5px;
+    text-align: right;
+    
+}
+
+@media only screen and (min-width:600px)and (max-width:920px){
+    body{
+        width:90%;
+        
+    }
+    
+}
+
+
+@media only screen and (max-width:599px){
+    body {
+        width: 320px;
+    }
+    
+    
+        pre{         
+            font-size:.83m;
+            padding: 5em;
+            background: rgb (246,247,160);
+        }
+    
+}
+
+@media only screen and (max-width:420px){
+    #icons{
+        display: block;
+        margin: 0 auto;
+        margin-right:100px;
+        
+        
+}
+    
+.terms{
+    display: inline;
+    float: none;
+    padding-left: 20px;
+}
+    
+    
+#contacts{
+    margin-right: 10px;
+    padding:0;
+
+    
+}
+    
+    
+#ava{
+    width: none;
+    
+}
+    
+input{
+    position: relative;
+    top:-20px;
+    font-family: arial;
+    display: block;
+    width:10%;
+    text-transform:uppercase;
+    color: grey;
+    font-size:.5em;
+    text-align: center;
+    }
+    
+    
+li{
+    
+    float: left;
+    width: calc(100%/5);
+    display:block;
+    width: 100px;
+    height: 30px;
+    
+
+}
+    
+
 
 
     
