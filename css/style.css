@@ -24,9 +24,6 @@ body{
     background-size:100%;
 }
 
-
- 
-
 header{
     padding;
     margin: 0;
@@ -37,25 +34,125 @@ header{
 
 
 
+button{
+    border: none;
+    background-color: white;
+    float: left;
+    font-size: 1.1em;
+}
 
-    
-    
-    
-    
-    
-    
-    
-    
+div{ 
+    padding: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-
-
-#contacts{
+#log{
+    position: relative;
+    top:-80px;
+    font-size: 1.2em;
+    height: 80px;
+    width: 10%;
+    line-height: 4em;
+    text-align: center;
     float: right;
+    color: black;
     
 }
 
+#sign{
+    position: relative;
+    top:-80px;
+    font-size: 1.2em;
+    height: 80px;
+    width: 10%;
+    line-height: 4em;
+    text-align: center;
+    float: right;
+    color: #fff;
+    background-color:#3FA87E;
+}
+
+#ups{
+    display: block;
+    height:;
+    text-align: center;
+    margin: 0 auto;
+    width: auto;
+    text-transform: uppercase;
+}
+
+main{
+    margin: 0;
+    width: auto;
+    height: auto;
+}
+
+#only_one{
+    width: 20%;
+    float: left;
+}
+
+#two{
+    position: relative;
+    top: 5px;
+      display: block;
+    width:auto;
+    margin: 0 auto;
+    width:100%;
+    padding-bottom: 10px;
+     border-bottom: 1px solid #818181;;
+    
+}
+
+ul{
+   
+    display: inline;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    width:auto;
+    
+
+    
+}
+
+
+li{
+    
+    float: left;
+    width: calc(100%/5);
+    display:block;
+    width: 100px;
+    height: 30px;
+    
+
+}
+    
+}
+
+
+    
+    
+
+
+
+
+
+
+    
 a{
     color: black;
     font-weight: normal;
     text-decoration: none;
+}    
+    
+    
+    
+    
+
+
+
+@media only-screen and(max-width:699px){
+    
 }
