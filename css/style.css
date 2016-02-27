@@ -66,6 +66,7 @@ div{
     
 }
 
+
 #sign{
     position: relative;
     top:-80px;
@@ -81,7 +82,7 @@ div{
 
 #main1{
     display: block;
-    height:;
+    height: 0;
     text-align: center;
     margin: 0 auto;
     width: auto;
@@ -123,7 +124,7 @@ ul{
 }
 
 li{
-    
+    display: inline;
     float: left;
     width: calc(100%/5);
     display:block;
@@ -144,22 +145,33 @@ li{
 }
 
 #end{
-    
     position: relative;
-    top:10px;
+    top:100px;
     display: block;
     width:auto;
     margin: 0 auto;
     width:100%;
 }
 
+.terms{
+    position: relative;
+    top: 100px;
+    line-height: 20px;
+
+}
+
 
 
 
 a{
+    position: relative;
+    top: 80px;
+    float: right;
+    line-height: 20px;
     color: black;
     font-weight: normal;
     text-decoration: none;
+    font-size: 18px;
 }
 
 #ava{
@@ -186,18 +198,16 @@ input{
     padding-left: 100px;
     padding-right: 100px;
     background-color:#fff;
-    color: grey;
+    color: whitesmoke;
     font-weight: bold;
     font-size: 16px;
     text-align: center;
-
-
 }
 
 
 
 
-#{
+input{
     text-align: center;
     padding: 20px;
     padding-left: 100px;
@@ -212,8 +222,11 @@ input{
 }
 
 
-#{
+#1contacts{
     font-size: 20px;
+    position: relative;
+    top: 80px;
+    display: inline;
     color:#fff;
     letter-spacing: 2px;
     text-decoration: none;
@@ -228,6 +241,7 @@ footer{
 }
 
 #end{
+    
    margin: 0 auto;
     padding: 0;
     float: left;
@@ -235,12 +249,15 @@ footer{
     
 }
 .terms{
-    text-align: center;
-    float: left;
+    position: relative;
+
+    padding: 0;
     width: 100px;
-    display: inline-block;
+    display: block;
    
 }
+
+
 #icons{
     width: 5=0%;
     float: right;
@@ -248,7 +265,9 @@ footer{
     font-size: 24px;;
     letter-spacing: 5px;
     text-align: right;
-    
+    padding-top: 50rem;
+    box-sizing: border-box;
+    border-top: solid 5px;
 }
 
 @media only screen and (min-width:600px)and (max-width:920px){
@@ -285,15 +304,16 @@ footer{
     
 .terms{
     display: inline;
-    float: none;
     padding-left: 20px;
+    
 }
     
     
 #contacts{
-    margin-right: 10px;
-    padding:0;
-
+    margin-left: 10px;
+    padding: 0;
+    display: block;
+    
     
 }
     
@@ -303,23 +323,10 @@ footer{
     
 }
     
-input{
-    position: relative;
-    top:-20px;
-    font-family: arial;
-    display: block;
-    width:10%;
-    text-transform:uppercase;
-    color: grey;
-    font-size:.5em;
-    text-align: center;
-    }
-    
     
 li{
-    
-    float: left;
-    width: calc(100%/5);
+
+    width: calc(100%/9);
     display:block;
     width: 100px;
     height: 30px;
@@ -327,22 +334,12 @@ li{
 
 }
     
-
-
-
-    
-    
-
-
-
-
-
-
-    
 a{
     color: black;
     font-weight: normal;
     text-decoration: none;
+    float: right;
+    
 }    
     
     
