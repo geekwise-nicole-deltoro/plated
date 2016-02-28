@@ -15,6 +15,15 @@ body{
     
 }
 
+header1{
+    padding: 15em;
+    margin: 15px;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #818181;
+    display: none;
+}
+
 
 main{
     margin: 0;
@@ -28,26 +37,18 @@ main{
     background-size:100%;
 }
 
-header1{
-    padding: 20px;
-    margin: 5rem;
-    width: 100%;
-    height: 100%;
-    border-bottom: 1px solid #818181;
-}
-
-
 
 button{
+    margin: 0;
     border: none;
     background-color: white;
-    float: left;
-    font-size: 1.3em;
+    font-size: 1.2em;
+    
     
 }
 
-div{
-    float: 
+top{
+    
     padding: 0;
     margin-bottom: 10px;
     text-align: center;
@@ -57,7 +58,7 @@ div{
     position: relative;
     top:-80px;
     font-size: 1.2em;
-    height: 80px;
+    height: 70px;
     width: 10%;
     line-height: 4em;
     text-align: center;
@@ -71,7 +72,7 @@ div{
     position: relative;
     top:-80px;
     font-size: 1.2em;
-    height: 80px;
+    height: 60px;
     width: 10%;
     line-height: 4em;
     text-align: center;
@@ -80,54 +81,28 @@ div{
     background-color:#3FA87E;
 }
 
-#main1{
-    display: block;
-    height: 0;
-    text-align: center;
-    margin: 0 auto;
-    width: auto;
-    text-transform: uppercase;
-}
 
-#quote{
-    margin: 0;
-    width: auto;
-    height: auto;
-    align-content: center;
-}
 
-#only_nav{
-    width: 20%;
-    float: left;
-}
 
 #two{
-    position: relative;
-    top: 5px;
-      display: block;
-    width:auto;
+    display: inline;
     margin: 0 auto;
-    width:100%;
-    padding-bottom: 10px;
-     border-bottom: 1px solid #818181;
+    width:10%;
     
 }
 
 ul{
-   
-    display: inline;
+   float: left;
+    display: block;
     text-transform: uppercase;
-    text-align: center;
     margin: 0;
     width:auto;
     
 }
 
 li{
-    display: inline;
-    float: left;
-    width: calc(100%/5);
-    display:block;
+    width: calc(100%/11);
+    display:inline;
     width: 100px;
     height: 30px;
     
@@ -136,37 +111,16 @@ li{
 
 #contacts{
     font-family: arial;
-    float: right;
-    display: block;
-    width:146px;
+    display: inline;
+    width: 146px;
     text-transform: lowercase;
     
     
 }
 
-#end{
-    position: relative;
-    top:100px;
-    display: block;
-    width:auto;
-    margin: 0 auto;
-    width:100%;
-}
-
-.terms{
-    position: relative;
-    top: 100px;
-    line-height: 20px;
-
-}
-
-
-
 
 a{
-    position: relative;
     top: 80px;
-    float: right;
     line-height: 20px;
     color: black;
     font-weight: normal;
@@ -174,107 +128,64 @@ a{
     font-size: 18px;
 }
 
-#ava{
-    width: 100%;
-    display: block;
-    margin: auto;
-    text-align: center;
-}
-
 #quote{
+    float: right;
     width: 100%;
     margin: 0;
     padding: 0;
     font-size:40px;
-    padding-left: 278px;
     text-align: center;
     font-weight: bold;
     color: #fff;
+    text-transform: uppercase;
 }
 
 input{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:100px ;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    float: left;
+}
+
+input{
+    text-align: center;
     margin: 20px;
     padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
-    background-color:#fff;
-    color: whitesmoke;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: center;
-}
-
-
-
-
-input{
-    text-align: center;
-    padding: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
     background-color: #3fa87e;
-    border:none;
     text-decoration: none;
     color: white;
     margin: 0 auto;
-    display:block;
-    
-}
-
-
-#1contacts{
-    font-size: 20px;
-    position: relative;
-    top: 80px;
-    display: inline;
-    color:#fff;
-    letter-spacing: 2px;
-    text-decoration: none;
-}   
-
-
-
-footer{
-    margin: 0 auto;
-    padding:0;  
     
 }
 
 #end{
-    
+    float: left;
    margin: 0 auto;
     padding: 0;
-    float: left;
     text-transform: uppercase;
     
 }
+
 .terms{
-    position: relative;
+    margin: 10px;
+    float: left;
+    line-height: 20px;
 
-    padding: 0;
-    width: 100px;
-    display: block;
-   
 }
 
 
-#icons{
-    width: 5=0%;
-    float: right;
-    margin-top:-17px;
-    font-size: 24px;;
-    letter-spacing: 5px;
-    text-align: right;
-    padding-top: 50rem;
-    box-sizing: border-box;
-    border-top: solid 5px;
-}
 
 @media only screen and (min-width:600px)and (max-width:920px){
     body{
-        width:90%;
-        
-    }
+        width:100%;}
     
 }
 
@@ -283,71 +194,34 @@ footer{
     body {
         width: 320px;
     }
-    
-    
-        pre{         
+          pre{         
             font-size:.83m;
             padding: 5em;
-            background: rgb (246,247,160);
+            background: rgb (146,247,160);
         }
     
 }
 
 @media only screen and (max-width:420px){
     #icons{
-        display: block;
-        margin: 0 auto;
-        margin-right:100px;
-        
+        display:inline;
+        margin-top: 15em;    
         
 }
     
-.terms{
-    display: inline;
-    padding-left: 20px;
-    
-}
-    
-    
-#contacts{
-    margin-left: 10px;
-    padding: 0;
-    display: block;
-    
-    
-}
-    
-    
-#ava{
-    width: none;
-    
-}
-    
-    
-li{
-
-    width: calc(100%/9);
-    display:block;
-    width: 100px;
-    height: 30px;
-    
-
-}
-    
+  
 a{
     color: black;
     font-weight: normal;
     text-decoration: none;
-    float: right;
-    
 }    
     
     
-    
-    
-
-
-
-@media only-screen and(max-width:699px){
-    
+footer{
+    padding:0;  
+    display: inline;
 }
+
+
+    
+    
