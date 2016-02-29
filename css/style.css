@@ -64,8 +64,7 @@ header1{
     position: relative;
     top:-80px;
     font-size: 1.2em;
-    padding-top: 20px;
-    height: 60px;
+    height: 80px;
     width: 10%;
     line-height: 4em;
     text-align: center;
@@ -74,20 +73,17 @@ header1{
     
 }
 
-
 #sign{
     position: relative;
     top:-80px;
-    padding-top: 20px;
     font-size: 1.2em;
-    height: 60px;
+    height: 80px;
     width: 10%;
     line-height: 4em;
     text-align: center;
     float: right;
     color: #fff;
-    background-color:  #56CC9D;
-}
+    background-color:#3FA87E;
 
 
 main{
