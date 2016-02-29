@@ -98,6 +98,16 @@ main{
     background-size:100%;
     text-align: center;
 }
+#quote{
+    float: right;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size:35px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
 
 
 input{
@@ -135,12 +145,7 @@ button{
 	background-image: url(images/button_bg_over.jpg);
 }
 
-#quote{
-    display: inline;
-    margin: 0 auto;
-    width:10%;
-    
-}
+
 
 ul{
     position: relative;
@@ -153,22 +158,12 @@ ul{
 }
 
 li{
-  list-style-position: outside;
     padding-top: 35rem;
     float: left;
     width: 100px;
     height: 40px;
     
 
-}
-
-#contacts{
-    font-family: arial;
-    display: inline;
-    width: 146px;
-    text-transform: lowercase;
-    
-    
 }
 
 
@@ -181,16 +176,17 @@ a{
     font-size: 18px;
 }
 
-#quote{
-    float: right;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-size:35px;
-    text-align: center;
-    font-weight: bold;
-    color: #fff;
+#contacts{
+    font-family: arial;
+    display: inline;
+    width: 146px;
+    text-transform: lowercase;
+    
 }
+
+
+
+
 
 
 
