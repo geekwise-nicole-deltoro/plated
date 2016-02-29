@@ -12,18 +12,79 @@ body{
     text-decoration-color: #020202;
     box-sizing: border-box;
     
-    
 }
 
 header1{
-    padding: 15em;
-    margin: 15px;
+    padding: 0;
+    margin: 0;
     width: 100%;
-    height: 50%;
-    border-bottom: 1px solid #818181;
+    box-sizing: border-box;
+    border-top: 13px solid #818181;
     display: none;
 }
 
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    float: left
+}
+
+.dropdown-content {
+    display: block;;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: none;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#log{
+    position: relative;
+    top:-80px;
+    font-size: 1.2em;
+    height: 80px;
+    width: 10%;
+    line-height: 4em;
+    text-align: center;
+    float: right;
+    color: black;
+    
+}
+
+#sign{
+    position: relative;
+    top:-80px;
+    font-size: 1.2em;
+    height: 80px;
+    width: 10%;
+    line-height: 4em;
+    text-align: center;
+    float: right;
+    color: #fff;
+    background-color:#3FA87E;
+}
 
 main{
     margin: 0;
@@ -35,56 +96,46 @@ main{
     background-repeat: no-repeat;
     background-image: cover;
     background-size:100%;
+    text-align: center;
 }
 
+
+input{
+    float: left;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+    color: #3B3B3B;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 80%;
+    background-color: #ffffff;
+
+}
 
 button{
-    margin: 0;
-    border: none;
-    background-color: white;
-    font-size: 1.2em;
-    
-    
+    font-weight: bold;  
+    float: left;
+    font-size: 18px;
+	background-color: #56CC9D;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right:100px ;
+	color: #ffffff;
+	background-image: url(images/button_bg.jpg);
+}
+.button2:hover {
+	background-color:#56CC9D;	
+	border:1px solid #000000;
+	background-image: url(images/button_bg_over.jpg);
 }
 
-top{
-    
-    padding: 0;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-#log{
-    position: relative;
-    top:-80px;
-    font-size: 1.2em;
-    height: 70px;
-    width: 10%;
-    line-height: 4em;
-    text-align: center;
-    float: right;
-    color: black;
-    
-}
-
-
-#sign{
-    position: relative;
-    top:-80px;
-    font-size: 1.2em;
-    height: 60px;
-    width: 10%;
-    line-height: 4em;
-    text-align: center;
-    float: right;
-    color: #fff;
-    background-color:#3FA87E;
-}
-
-
-
-
-#two{
+#quote{
     display: inline;
     margin: 0 auto;
     width:10%;
@@ -92,19 +143,21 @@ top{
 }
 
 ul{
+    position: relative;
+    top: 80%;
    float: left;
-    display: block;
     text-transform: uppercase;
-    margin: 0;
-    width:auto;
+    padding-top: 30rem;.
+    width: calc(100%/6);
     
 }
 
 li{
-    width: calc(100%/11);
-    display:inline;
+  list-style-position: outside;
+    padding-top: 35rem;
+    float: left;
     width: 100px;
-    height: 30px;
+    height: 40px;
     
 
 }
@@ -133,38 +186,13 @@ a{
     width: 100%;
     margin: 0;
     padding: 0;
-    font-size:40px;
+    font-size:35px;
     text-align: center;
     font-weight: bold;
     color: #fff;
-    text-transform: uppercase;
 }
 
-input{
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
-    padding-left: 100px;
-    padding-right:100px ;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px;
-    text-align: center;
-    float: left;
-}
 
-input{
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: #3fa87e;
-    text-decoration: none;
-    color: white;
-    margin: 0 auto;
-    
-}
 
 #end{
     float: left;
@@ -221,7 +249,3 @@ footer{
     padding:0;  
     display: inline;
 }
-
-
-    
-    
